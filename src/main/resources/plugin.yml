@@ -1,0 +1,13 @@
+name: CaveMapper
+version: '${project.version}'
+main: cavemapper.cavemapper.CaveMapper
+api-version: 1.18
+authors: [ Lian, Eszi ]
+description: Maps out a cave
+commands:
+  highlightblock:
+    usage: /<command>
+  algorithmstop:
+    description: sdugfuzhsdfuhikdsgzhukfsdlik ulfd ihgfolikd jhfgjklcvdéloikjuh (yes)
+  algorithmstart:
+    description: yes
