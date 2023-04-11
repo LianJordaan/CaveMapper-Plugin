@@ -1,30 +1,30 @@
-# Cave Mapper
+# CaveMapper-Plugin
 
-Cave Mapper is a Java plugin for Minecraft Java servers that aims to map out caves using glowing entities. Please note that this project is experimental and may be laggy or not suitable for practical use. However, the source code is available for anyone who wants to work on it and improve it further.
+CaveMapper-Plugin is a Java plugin for Minecraft Java servers that attempts to map out caves using glowing entities. Please note that this project is experimental and may not be well-designed, with the mapping process running instantly and the stop command being ineffective.
 
 ## Usage
 
-To use the Cave Mapper plugin, you will need to have a Minecraft Java server running version 1.18.2 or higher.
+To use the CaveMapper-Plugin, you will need to have a Minecraft Java server running version 1.18.2 or higher.
 
 ### Installation
 
-1. Download the latest release of the Cave Mapper plugin from the [releases](https://github.com/yourusername/cave-mapper/releases) page.
+1. Download the latest release of the CaveMapper-Plugin from the [releases](https://github.com/LianJordaan/CaveMapper-Plugin/releases) page.
 2. Upload the downloaded JAR file to the `plugins` folder of your Minecraft server.
-3. Restart your Minecraft server to load the Cave Mapper plugin.
-4. Use the plugin commands or configuration files to configure and activate the cave mapping algorithm.
+3. Restart your Minecraft server to load the CaveMapper-Plugin.
+4. Use the following plugin commands to interact with the plugin:
 
-### How it Works
-
-The Cave Mapper algorithm uses glowing entities in Minecraft to map out caves. These glowing entities emit light, which illuminates the surrounding blocks. The algorithm tracks the illuminated blocks and generates a map based on the illuminated areas.
+- `/highlightblock`: Highlights the single block you are looking at.
+- `/algorithmstart`: Runs the cave mapper to map the cave you are in.
+- `/algorithmstop`: Stops the mapping process. Note: This command may not be effective due to the instant nature of the mapping process.
 
 ## Contributing
 
-You are welcome to contribute to the Cave Mapper project by forking the repository, making improvements, and submitting pull requests. Please read the [Contributing Guidelines](CONTRIBUTING.md) for more information on how to contribute.
+You are welcome to contribute to the CaveMapper-Plugin project by forking the repository, making improvements, and submitting pull requests. Please read the [Contributing Guidelines](CONTRIBUTING.md) for more information on how to contribute.
 
 ## License
 
-The Cave Mapper plugin is open-source software released under the [MIT License](LICENSE). You are free to use, modify, and distribute this plugin in accordance with the terms of the license.
+The CaveMapper-Plugin is open-source software released under the [MIT License](LICENSE). You are free to use, modify, and distribute this plugin in accordance with the terms of the license.
 
 ## Disclaimer
 
-Please note that the Cave Mapper plugin is provided "as is" and may not be suitable for practical use. The plugin authors make no guarantees or warranties about the performance or functionality of the software. Use the Cave Mapper plugin at your own risk.
+Please note that the CaveMapper-Plugin is provided "as is" and may not be suitable for practical use. The plugin authors make no guarantees or warranties about the performance or functionality of the software. Use the CaveMapper-Plugin at your own risk.
